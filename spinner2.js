@@ -8,6 +8,7 @@ const spinner = () => {
       process.stdout.write(spinnerSymbols[i]);
     }, timer);
   }
+  return 'this is the spinner!';
 };
 
 console.log(spinner());
